@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Social</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+        }
+
+        header {
+            background: linear-gradient(145deg, #4b79a1, #283e51);
+            padding: 15px 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        main h2 {
+            text-align: center;
+            color: #283e51;
+            margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form input,
+        form textarea {
+            margin-bottom: 20px;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        form input:focus,
+        form textarea:focus {
+            outline: none;
+            border-color: #4b79a1;
+            box-shadow: 0 0 5px rgba(75, 121, 161, 0.5);
+        }
+
+        form button {
+            background: linear-gradient(145deg, #4b79a1, #283e51);
+            color: white;
+            border: none;
+            padding: 15px;
+            font-size: 16px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        form button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background: #283e51;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #4b79a1;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Social</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="index.html#social-section">Social Apps</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        &copy; 2026 My Social. All rights reserved. | Designed with ❤️ by Dheeraj
+    </footer>
+
+</body>
+
+</html>

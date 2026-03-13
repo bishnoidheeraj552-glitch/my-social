@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <title>My Social - Social Media, Student & Government Websites</title>
+
+    <meta name="description"
+        content="My Social is a portal where you can open social media apps, student portals like RBSE, CBSE, JEE, NEET and government websites like SSO and Jamabandi easily.">
+
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial;
+        }
+
+        body {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+        }
+
+        /* HEADER */
+
+        header {
+            background: #020617;
+            padding: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 8px;
+            padding: 8px 15px;
+            background: #1e293b;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background: #38bdf8;
+        }
+
+        /* SEARCH */
+
+        .search {
+            margin-top: 10px;
+        }
+
+        .search input {
+            padding: 10px;
+            width: 250px;
+            border-radius: 6px;
+            border: none;
+        }
+
+        /* SECTIONS */
+
+        .section {
+            margin-top: 40px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        /* 3D CARD */
+
+        .card {
+            width: 140px;
+            height: 150px;
+            background: linear-gradient(145deg, #1e293b, #0f172a);
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: white;
+            box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.6);
+            transition: 0.3s;
+        }
+
+        .card img {
+            width: 50px;
+            margin-bottom: 8px;
+        }
+
+        .card:hover {
+            transform: translateY(-10px) scale(1.08);
+        }
+
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3756679716476788"
+        crossorigin="anonymous"></script>
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Google Ad Unit -->
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXX" data-ad-slot="YYYYYYYYYY"
+        data-ad-format="auto"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+
+    <header>
+
+        <div class="logo">My Social</div>
+
+        <nav>
+
+            <h1>My Social</h1>
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy</a>
+
+
+            <a href="https://google.com">Exit</a>
+        </nav>
+
+        <div class="search">
+            <input placeholder="Search website...">
+        </div>
+
+    </header>
+
+    <!-- SOCIAL -->
+
+    <div id="social" class="section">
+
+        <h2>Social Media</h2>
+
+        <div class="container">
+
+            <a class="card" href="https://youtube.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png">
+                <p>YouTube</p>
+            </a>
+
+            <a class="card" href="https://instagram.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png">
+                <p>Instagram</p>
+            </a>
+
+            <a class="card" href="https://web.whatsapp.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
+                <p>WhatsApp</p>
+            </a>
+
+            <a class="card" href="https://telegram.org" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png">
+                <p>Telegram</p>
+            </a>
+
+            <a class="card" href="https://facebook.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
+                <p>Facebook</p>
+            </a>
+
+            <a class="card" href="https://snapchat.com" target="_blank">
+                <img
+                    src="data:image/png;base64,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">
+                <p>Snapchat</p>
+            </a>
+
+        </div>
+    </div>
+
+    <!-- STUDENT -->
+
+    <div id="student" class="section">
+
+        <h2>Student Websites</h2>
+
+        <div class="container">
+
+            <a class="card" href="https://nta.ac.in" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png">
+                <p>JEE / NEET</p>
+            </a>
+
+            <a class="card" href="https://rajeduboard.rajasthan.gov.in" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135789.png">
+                <p>RBSE</p>
+            </a>
+
+            <a class="card" href="https://cbse.gov.in" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png">
+                <p>CBSE</p>
+            </a>
+
+            <a class="card" href="https://mgsubikaner.ac.in" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135810.png">
+                <p>MGSU</p>
+            </a>
+
+        </div>
+    </div>
+    ```html
+    <!-- RESULTS SECTION -->
+
+    <div id="results" class="section">
+
+        <h2>Board Results</h2>
+
+        <div class="container">
+
+            <a class="card" href="https://rajeduboard.rajasthan.gov.in" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135789.png">
+                <p>RBSE 10 Result</p>
+            </a>
+
+            <a class="card" href="https://rajeduboard.rajasthan.gov.in" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135789.png">
+                <p>RBSE 12 Result</p>
+            </a>
+
+            <a class="card" href="https://cbseresults.nic.in" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png">
+                <p>CBSE 10 Result</p>
+            </a>
+
+            <a class="card" href="https://cbseresults.nic.in" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png">
+                <p>CBSE 12 Result</p>
+            </a>
+
+            <a class="card" href="https://ntaresults.nic.in" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png">
+                <p>JEE Result</p>
+            </a>
+
+            <a class="card" href="https://ntaresults.nic.in" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png">
+                <p>NEET Result</p>
+            </a>
+
+        </div>
+
+    </div>
+    ```
+
+
+    <!-- GOVERNMENT -->
+
+    <div id="government" class="section">
+
+        <h2>Government Websites</h2>
+
+        <div class="container">
+
+            <a class="card" href="https://sso.rajasthan.gov.in" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png">
+                <p>SSO</p>
+            </a>
+
+            <a class="card" href="https://apnakhata.rajasthan.gov.in/Owner_wise/VillSelAll3.aspx" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png">
+                <p>Jamabandi</p>
+            </a>
+
+            <a class="card" href="https://uidai.gov.in" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/3176/3176363.png">
+                <p>Aadhaar</p>
+            </a>
+
+            <a class="card" href="https://scholarships.gov.in" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/3063/3063820.png">
+                <p>Scholarship</p>
+            </a>
+
+            <a class="card" href="https://digilocker.gov.in" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png">
+                <p>DigiLocker</p>
+            </a>
+
+            <a class="card" href="https://indianrailways.gov.in" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png">
+                <p>Railway</p>
+            </a>
+
+        </div>
+    </div>
+    <section>
+        <h2>वेबसाइट का उपयोग कैसे करें</h2>
+
+        <h3>1. सोशल मीडिया खोलना</h3>
+        <p>
+            होम पेज पर आपको अलग-अलग सोशल मीडिया के बटन दिखाई देंगे।
+            जिस प्लेटफॉर्म पर जाना चाहते हैं उस पर क्लिक करें।
+        </p>
+
+        <h3>2. प्रोफाइल देखना</h3>
+        <p>
+            किसी भी लिंक पर क्लिक करने के बाद आप सीधे मेरे सोशल मीडिया
+            प्रोफाइल पर पहुँच जाएंगे जहाँ आप मेरी पोस्ट और अपडेट देख सकते हैं।
+        </p>
+
+        <h3>3. फॉलो और संपर्क</h3>
+        <p>
+            अगर आपको मेरा कंटेंट पसंद आता है तो आप मुझे फॉलो कर सकते हैं
+            और मैसेज के जरिए संपर्क भी कर सकते हैं।
+        </p>
+
+        <h3>4. अपडेट देखना</h3>
+        <p>
+            इस वेबसाइट पर समय-समय पर नए लिंक और जानकारी अपडेट की जाती है,
+            इसलिए समय-समय पर वेबसाइट जरूर देखें।
+        </p>
+
+    </section>
+    <section>
+        <h2>मेरे बारे में</h2>
+        <p>
+            नमस्ते! मेरा नाम धीरज बिश्नोई है। यह वेबसाइट मेरे सभी सोशल मीडिया
+            प्लेटफॉर्म को एक ही जगह पर दिखाने के लिए बनाई गई है।
+            यहाँ से आप आसानी से मेरे अलग-अलग प्रोफाइल पर जा सकते हैं
+            और मेरे नए अपडेट देख सकते हैं।
+        </p>
+    </section>
+    <footer>
+
+        <p>© 2026 My Social</p>
+
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+
+    </footer>
+
+
+</body>
+
+</html>
+
+```
